@@ -3,7 +3,7 @@ Official repo for "A MODULATION-DOMAIN LOSS FOR NEURAL-NETWORK-BASED REAL-TIME S
 
 Used for training DNN based speech enhancement
 
-[Paper](https://www.isca-speech.org/archive/Interspeech_2020/pdfs/1878.pdf)
+[Paper](https://www.isca-speech.org/archive/Interspeech_2020/pdfs/1878.pdf)\
 [Arxiv](https://arxiv.org/abs/2010.09151)
 
 ### Citation
