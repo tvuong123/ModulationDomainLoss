@@ -10,7 +10,7 @@ Used for training DNN based speech enhancement
 ### Citation
 
 ```
-@inproceedings{vuong2020learnable,
+@inproceedings{vuong2021modulationloss,
   author={Tyler Vuong and Yangyang Xia and Richard M. Stern},
   title={A modulation-domain loss for neural-network-based real-time speech enhancement},
   year=2021,
