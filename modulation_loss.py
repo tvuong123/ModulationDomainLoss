@@ -4,6 +4,8 @@ import math
 from torchaudio.transforms import MelScale
 import torch.nn.functional as F
 
+from pdb import set_trace
+
 
 class ModulationDomainLossModule(torch.nn.Module):
     """Modulation-domain loss function developed in [1] for supervised speech enhancement
@@ -101,9 +103,9 @@ class GaborSTRFConv(nn.Module):
         ksin = torch.sin(torch.ger(self.scales_, self.supk-k0))
         kcos = torch.cos(torch.ger(self.scales_, self.supk-k0))
         nwind = .5 - .5 * \
-            torch.cos(2*math.pi*(self.supn-n0)/(len(self.supn)+1))
+            torch.cos(2*math.pi*(self.supn)/(len(self.supn)+1))
         kwind = .5 - .5 * \
-            torch.cos(2*math.pi*(self.supk-k0)/(len(self.supk)+1))
+            torch.cos(2*math.pi*(self.supk)/(len(self.supk)+1))
         strfr = torch.bmm((ncos*nwind).unsqueeze(-1),
                           (kcos*kwind).unsqueeze(1))
 
@@ -122,8 +124,8 @@ class GaborSTRFConv(nn.Module):
     def __repr__(self):
         """Gabor filter"""
         report = """
-            +++++ Gabor Filter Kernels [{}], supn[{}], supk[{}] real only [{}] +++++
-        """.format(self.numKern, self.numN, self.numK, self.real_only
+            +++++ Gabor Filter Kernels [{}], supn[{}], supk[{}] +++++
+        """.format(self.numKern, self.numN, self.numK
                    )
         return report
 
@@ -134,7 +136,7 @@ if __name__ == '__main__':
 
     gabor_strf_parameters = torch.load(
         'modulation_kernel_parameters/gabor_strf_parameters.pt', map_location=lambda storage, loc: storage)['state_dict']
-    gabor_modulation_kernels = GaborSTRFConv(supn=30, supk=20, nkern=30)
+    gabor_modulation_kernels = GaborSTRFConv(supn=30, supk=30, nkern=30)
     gabor_modulation_kernels.load_state_dict(gabor_strf_parameters)
 
     stft2mel = MelScale(n_mels=80, sample_rate=16000, n_stft=257)
