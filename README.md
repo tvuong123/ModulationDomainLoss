@@ -1,4 +1,4 @@
-# modulation-dommain-loss-ICASSP2021
+# modulation-domain-loss-ICASSP2021
 
 Official repo for the modulation-domain loss to appear in ICASSP 2021
 
