@@ -1,12 +1,12 @@
 # modulation-dommain-loss-ICASSP2021
 
 Official repo for the modulation-domain loss to appear in ICASSP 2021
-"A MODULATION-DOMAIN LOSS FOR NEURAL-NETWORK-BASED REAL-TIME SPEECH
-ENHANCEMENT"
+
 Modulation loss function used for training DNN based speech enhancement
 
 [[Arxiv](https://arxiv.org/pdf/2102.07330.pdf)]
 
+# A MODULATION-DOMAIN LOSS FOR NEURAL-NETWORK-BASED REAL-TIME SPEECH ENHANCEMENT
 ### Citation
 
 ```
