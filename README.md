@@ -2,7 +2,7 @@
 
 Official repo for the spectro-temporal modulation-domain loss to appear in ICASSP 2021
 
-Modulation loss function used for training DNN based speech enhancement
+Modulation loss function used for training DNN-based speech enhancement
 
 [[Arxiv](https://arxiv.org/pdf/2102.07330.pdf)]
 
