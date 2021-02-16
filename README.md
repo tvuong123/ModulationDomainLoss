@@ -2,20 +2,20 @@
 
 Official repo for the modulation-domain loss to appear in ICASSP 2021
 
-Used for training DNN based speech enhancement
+Modulation loss function used for training DNN based speech enhancement
 
-[Paper](https://www.isca-speech.org/archive/Interspeech_2020/pdfs/1878.pdf)\
-[Arxiv](https://arxiv.org/abs/2010.09151)
+[Arxiv](https://arxiv.org/pdf/2102.07330.pdf)
 
 ### Citation
 
 ```
-@inproceedings{vuong2021modulationloss,
-  author={Tyler Vuong and Yangyang Xia and Richard M. Stern},
-  title={A modulation-domain loss for neural-network-based real-time speech enhancement},
-  year=2021,
-  month = feb,
-  url={http://dx.doi.org/10.21437/Interspeech.2020-1878}
+@misc{vuong2021modulationdomain,
+      title={A Modulation-Domain Loss for Neural-Network-based Real-time Speech Enhancement}, 
+      author={Tyler Vuong and Yangyang Xia and Richard M. Stern},
+      year={2021},
+      eprint={2102.07330},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS}
 }
 
 ```
