@@ -6,9 +6,9 @@ Modulation loss function used for training DNN based speech enhancement
 
 [[Arxiv](https://arxiv.org/pdf/2102.07330.pdf)]
 
-See example in modulation_loss.py:
+See example in <code> modulation_loss.p </code>
 
-<code>printf()</code>
+
 # A MODULATION-DOMAIN LOSS FOR NEURAL-NETWORK-BASED REAL-TIME SPEECH ENHANCEMENT
 ### Citation
 
