@@ -21,7 +21,7 @@ class ModulationDomainLossModule(torch.nn.Module):
             modulation_domain = modulation_kernels(input_tf_representation)
             Input Spectrogram representation(B, T, F) --- (M) modulation_kernels---> Modulation Domain(B, M, T', F') 
 
-        [1]
+        [1] https://arxiv.org/pdf/2102.07330.pdf
 
     """
 
