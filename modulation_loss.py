@@ -4,8 +4,6 @@ import math
 from torchaudio.transforms import MelScale
 import torch.nn.functional as F
 
-from pdb import set_trace
-
 
 class ModulationDomainLossModule(torch.nn.Module):
     """Modulation-domain loss function developed in [1] for supervised speech enhancement
