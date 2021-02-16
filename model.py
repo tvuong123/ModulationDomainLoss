@@ -3,7 +3,7 @@ import torch
 
 
 class GRUNet(nn.Module):
-    """ RNN-based speech enhancement model used in [1]
+    """ RNN-based speech enhancement model used in https://arxiv.org/pdf/2102.07330.pdf
 
         Parameters
         ----------
@@ -25,7 +25,6 @@ class GRUNet(nn.Module):
             Output mask activation
 
 
-        [1]
 
 
     """
