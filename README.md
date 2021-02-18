@@ -1,6 +1,6 @@
 # modulation-domain-loss-ICASSP2021
 
-Official repo for the spectro-temporal modulation-domain loss to appear in ICASSP 2021
+Official repo for the PyTorch implementation of the spectro-temporal modulation-domain loss to appear in ICASSP 2021
 
 Modulation loss function used for training DNN-based speech enhancement systems
 
