@@ -2,10 +2,12 @@
 
 Official repo for the modulation-domain loss to appear in ICASSP 2021
 
-Used for training DNN based speech enhancement
+Used for training DNN- based speech enhancement using PyTorch.
+Can add this modulation loss to any other loss
 
-[Paper](https://www.isca-speech.org/archive/Interspeech_2020/pdfs/1878.pdf)\
-[Arxiv](https://arxiv.org/abs/2010.09151)
+Example usage can be found in 'modulation_loss.py'
+
+[Arxiv](://arxiv.org/abs/2102.07330)
 
 ### Citation
 

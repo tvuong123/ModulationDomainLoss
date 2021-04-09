@@ -4,6 +4,7 @@ import torch
 
 class GRUNet(nn.Module):
     """ RNN-based speech enhancement model used in [1]
+        Estimates ratio mask for each T-F bin
 
         Parameters
         ----------
@@ -25,7 +26,9 @@ class GRUNet(nn.Module):
             Output mask activation
 
 
-        [1]
+        [1] T. Vuong, Y. Xia, and R. M. Stern, “A modulation-domain lossfor neural-network-based real-time speech enhancement”
+            Accepted ICASSP 2021, https://arxiv.org/abs/2102.07330
+
 
 
     """
@@ -69,6 +72,6 @@ class GRUNet(nn.Module):
 if __name__ == '__main__':
 
     # Input data (B, T, F)
-    input = torch.rand((5, 100, 257))
+    noisy_stftM = torch.rand((5, 100, 257))
     model = GRUNet()
-    output = model(input)
+    enhanced_stftM = model(noisy_stftM) * noisy_stftM
