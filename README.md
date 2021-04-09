@@ -9,7 +9,7 @@ Can combine with any other loss function
 
 See example usage in <code> modulation_loss.py </code>
 
-# Gabor Kernel Examples
+### Gabor Kernel Examples
 ![alt text](gabor_filters_new.png "Gabor-STRF Kernels")
 # A MODULATION-DOMAIN LOSS FOR NEURAL-NETWORK-BASED REAL-TIME SPEECH ENHANCEMENT
 ### Citation
