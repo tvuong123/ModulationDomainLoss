@@ -32,7 +32,6 @@ class ModulationDomainLossModule(torch.nn.Module):
         super(ModulationDomainLossModule, self).__init__()
 
         self.modulation_kernels = modulation_kernels
-        self.modulation_kernels.freeze()
         self.mse = nn.MSELoss(reduce=False)
         self.norm = norm
 
@@ -244,7 +243,7 @@ if __name__ == '__main__':
 
     # initializing the modulation loss
     modulation_loss_module = ModulationDomainLossModule(
-        gabor_modulation_kernels)
+        gabor_modulation_kernels.eval())
 
     # (B, F, T) - pytorch convention
     # predicted enhanced and ground-truth clean STFTM
