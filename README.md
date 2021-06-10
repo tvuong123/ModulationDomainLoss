@@ -15,7 +15,7 @@ See example usage in <code> modulation_loss.py </code>
 ### Citation
 
 ```
-@INPROCEEDINGS{9414965,
+@INPROCEEDINGS{vuong2021modulation,
   author={Vuong, Tyler and Xia, Yangyang and Stern, Richard M.},
   booktitle={ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
   title={A Modulation-Domain Loss for Neural-Network-Based Real-Time Speech Enhancement}, 
