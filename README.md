@@ -15,13 +15,14 @@ See example usage in <code> modulation_loss.py </code>
 ### Citation
 
 ```
-@misc{vuong2021modulationdomain,
-      title={A Modulation-Domain Loss for Neural-Network-based Real-time Speech Enhancement}, 
-      author={Tyler Vuong and Yangyang Xia and Richard M. Stern},
-      year={2021},
-      eprint={2102.07330},
-      archivePrefix={arXiv},
-      primaryClass={eess.AS}
-}
-
+@INPROCEEDINGS{9414965,
+  author={Vuong, Tyler and Xia, Yangyang and Stern, Richard M.},
+  booktitle={ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={A Modulation-Domain Loss for Neural-Network-Based Real-Time Speech Enhancement}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={6643-6647},
+  doi={10.1109/ICASSP39728.2021.9414965}}
+  
 ```
