@@ -1,5 +1,4 @@
-# modulation-domain-loss-ICASSP2021
-# A Modulation-Domain Loss for Neural-Network-Based Real-Time Speech Enhancement 
+# A Modulation-Domain Loss for Neural-Network-Based Real-Time Speech Enhancement - ICASSP2021
 
 Official repo for the PyTorch implementation of the spectro-temporal modulation-domain loss presented at ICASSP 2021
 
