@@ -2,7 +2,7 @@
 
 Official repo for the PyTorch implementation of the spectro-temporal modulation-domain loss presented at ICASSP 2021
 
-Modulation loss function used for training DNN-based speech enhancement systems \
+Modulation loss function is used for training DNN-based speech enhancement systems \
 Can combine with any other loss function
 
 [[Arxiv](https://arxiv.org/pdf/2102.07330.pdf)] [[Paper](https://ieeexplore.ieee.org/document/9414965)]
