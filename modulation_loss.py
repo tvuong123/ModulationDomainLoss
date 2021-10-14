@@ -261,5 +261,6 @@ if __name__ == '__main__':
     modulation_loss = modulation_loss_module(enhanced_log_mel, clean_log_mel)
 
     print('modulation loss [{}]'.format(modulation_loss))
+    # MAKE SURE THE KERNEL WEIGHTS ARE NOT BEING UPDATED FROM BACKPROPAGATION
 
     # modulation_loss.backward()
