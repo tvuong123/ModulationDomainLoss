@@ -7,6 +7,8 @@ Can combine with any other loss function
 
 [[Arxiv](https://arxiv.org/pdf/2102.07330.pdf)] [[Paper](https://ieeexplore.ieee.org/document/9414965)]
 
+### MAKE SURE THE KERNEL WEIGHTS ARE NOT BEING UPDATED FROM BACKPROPAGATION
+
 See example usage in <code> modulation_loss.py </code>
 
 ### Gabor-STRF Kernel Examples
@@ -14,7 +16,6 @@ See example usage in <code> modulation_loss.py </code>
 # A MODULATION-DOMAIN LOSS FOR NEURAL-NETWORK-BASED REAL-TIME SPEECH ENHANCEMENT
 ### Citation
 
-### MAKE SURE THE KERNEL WEIGHTS ARE NOT BEING UPDATED FROM BACKPROPAGATION
 ```
 @INPROCEEDINGS{vuong2021modulation,
   author={Vuong, Tyler and Xia, Yangyang and Stern, Richard M.},
