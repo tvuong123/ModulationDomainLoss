@@ -14,6 +14,7 @@ See example usage in <code> modulation_loss.py </code>
 # A MODULATION-DOMAIN LOSS FOR NEURAL-NETWORK-BASED REAL-TIME SPEECH ENHANCEMENT
 ### Citation
 
+### MAKE SURE THE KERNEL WEIGHTS ARE NOT BEING UPDATED FROM BACKPROPAGATION
 ```
 @INPROCEEDINGS{vuong2021modulation,
   author={Vuong, Tyler and Xia, Yangyang and Stern, Richard M.},
